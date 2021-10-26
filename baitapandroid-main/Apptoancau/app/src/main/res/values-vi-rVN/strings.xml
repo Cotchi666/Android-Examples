@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App toan cau</string>
+    <string name="text_tieude">Phieu thong tin</string>
+    <string name="hint_hoten">Nhap ho ten</string>
+    <string name="hint_email">Nhap email</string>
+    <string name="hint_sdt">Nhap so dien thoai</string>
+    <string name="xac_nhan">Xac nhan</string>
+    <string name="text_chaoban">"Chao ban: "</string>
+    <string name="text_Phone">"So dien thoai: "</string>
+
+</resources>

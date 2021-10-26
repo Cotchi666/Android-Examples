@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Giao dien dang nhap</string>
+    <string-array name="list">
+        <item>Chó</item>
+        <item>Gà</item>
+        <item>Lợn</item>
+        <item>Mèo</item>
+        <item>Ngan</item>
+        <item>Ngỗng</item>
+        <item>Vịt</item>
+        <item>Bò</item>
+        <item>Trâu</item>
+        <item>Chims</item>
+    </string-array>
+</resources>

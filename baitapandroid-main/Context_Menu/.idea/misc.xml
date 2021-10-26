@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/bai tap androi/Context_Menu/app/src/main/res/drawable/mau_xannh.xml" value="0.21302083333333333" />
+        <entry key="..\:/bai tap androi/Context_Menu/app/src/main/res/layout/aaaa.xml" value="0.125" />
+        <entry key="..\:/bai tap androi/Context_Menu/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/bai tap androi/Context_Menu/app/src/main/res/menu/menu_context.xml" value="1.0" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

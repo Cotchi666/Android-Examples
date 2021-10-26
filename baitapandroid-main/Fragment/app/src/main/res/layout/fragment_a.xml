@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment_A"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/edit_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click A" />
+</LinearLayout>

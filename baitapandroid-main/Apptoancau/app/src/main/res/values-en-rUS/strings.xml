@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xac_nhan">Confirm</string>
+    <string name="text_chaoban">"Hello: "</string>
+    <string name="text_Phone">"Phone number: "</string>
+</resources>

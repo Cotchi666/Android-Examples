@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:scrollbarSize="20dp">
+
+        <TextView
+            android:id="@+id/textView_Album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Album" />
+
+        <Spinner
+            android:id="@+id/spinner_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:dropDownWidth="wrap_content"
+            android:gravity="left"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:spinnerMode="dropdown"
+            android:verticalScrollbarPosition="left" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView_tenBaiHat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tên BH:"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edit_tenBH"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView_ngay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ngày ra đĩa:"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edit_ngayRa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button_chonNgay"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="#8F8686"
+            android:backgroundTint="@null"
+            android:text="..."
+            app:backgroundTint="#8F8686" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/button_addBH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thêm bài hát" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp">
+
+        <ListView
+            android:id="@+id/listView_BH"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </TableRow>
+</TableLayout>

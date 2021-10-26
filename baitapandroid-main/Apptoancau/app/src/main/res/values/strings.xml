@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">App World</string>
+    <string name="text_tieude">Information form</string>
+    <string name="hint_hoten">Input fullname</string>
+    <string name="hint_email">Input email</string>
+    <string name="hint_sdt">Input phone</string>
+    <string name="xac_nhan">Confirm</string>
+    <string name="text_chaoban">"Hello: "</string>
+    <string name="text_Phone">"Phone number: "</string>
+
+
+</resources>

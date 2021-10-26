@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">game chon anh</string>
+    <string-array name="list_anh">
+
+        <item>drm1</item>
+        <item>drm2</item>
+        <item>drm3</item>
+        <item>drm4</item>
+        <item>drm5</item>
+        <item>drm6</item>
+        <item>drm7</item>
+        <item>drm8</item>
+        <item>drm9</item>
+        <item>drm10</item>
+        <item>drm11</item>
+        <item>drm12</item>
+        <item>drm13</item>
+        <item>drm14</item>
+        <item>drm15</item>
+        <item>drm16</item>
+
+    </string-array>
+</resources>

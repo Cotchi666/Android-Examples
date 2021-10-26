@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout-land/spinner_list_view.xml" value="0.2296875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_convert_year.xml" value="0.2953125" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_danh_sach_album.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_grid_view_hinh_anh.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_list_view.xml" value="0.19635416666666666" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_list_view_mac_dinh.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_list_view_ngoi_sao.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_main.xml" value="0.2953125" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_phong_to_anh.xml" value="0.18854166666666666" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_quan_li_bai_hat.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_quan_li_cong_viec.xml" value="0.33" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_quanly_album.xml" value="0.33" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_spinner_list_view.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_tab_selector.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_them_album_dialog.xml" value="0.1" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_tinh_tien.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_update_album_dialog.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/activity_webkit.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/dong_album.xml" value="0.5" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/dong_hinhanh.xml" value="0.18854166666666666" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/dong_listview.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/dong_spiner.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/listview_layout.xml" value="0.19635416666666666" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/listview_nhap.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/savae_info_layout.xml" value="0.33" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/tab_selector.xml" value="0.196875" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/layout/tinhtien_bansach.xml" value="0.33" />
+        <entry key="..\:/bai tap androi/Giaodiendangnhap/app/src/main/res/menu/menu_select.xml" value="0.196875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

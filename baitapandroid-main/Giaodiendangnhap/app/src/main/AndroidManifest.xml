@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.giaodiendangnhap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GiaoDienDangNhap">
+        <activity
+            android:name=".DanhSachAlbumActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuanlyAlbumActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateAlbumDialogActivity"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:exported="true" />
+        <activity
+            android:name=".ThemAlbumDialogActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            />
+        <activity
+            android:name=".QuanLiBaiHatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WebkitActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TabSelectorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuanLiCongViecActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PhongToAnhActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GridViewHinhAnhActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SpinnerListViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ListViewActivityNgoiSao"
+            android:exported="true" />
+        <activity
+            android:name=".ListViewMacDinhActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ListView_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ListViewNhapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TinhTienActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SaveInfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ConvertYearActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

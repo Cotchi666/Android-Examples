@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_row="@integer/material_motion_duration_long_1"
+    android:layout_column="@integer/material_motion_duration_long_1"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView_F"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit_F"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView_C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit_C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="83dp"
+            android:layout_marginRight="83dp"
+            android:text="C->F" />
+
+        <Button
+            android:id="@+id/button_C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="59dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="61dp"
+            android:text="F -> C" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
+
+</LinearLayout>

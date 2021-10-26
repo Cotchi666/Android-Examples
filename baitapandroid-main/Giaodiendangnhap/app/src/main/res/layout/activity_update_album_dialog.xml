@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ThemAlbumDialogActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView_titleUpdateAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Detail"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView_maAlbumUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Mã Album:"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/edit_maAlbumUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView_tenAlbumUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tên Album:"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edit_tenAlbumUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_xoaTrangUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@null"
+            android:text="Xóa trắng"
+            android:layout_weight="1"
+            app:backgroundTint="#918989" />
+
+        <Button
+            android:id="@+id/button_Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Update"
+            app:backgroundTint="#918989" />
+    </TableRow>
+</TableLayout>

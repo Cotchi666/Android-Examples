@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_title_tinhtien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#207523"
+            android:gravity="center"
+            android:text="Chương trình tính tiền bán sách online"
+            android:textColor="@color/white"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/textview_ttHoaDon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E8D52B"
+            android:text="Thông tin hóa đơn:"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_tenKh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tên khách hàng: " />
+
+            <EditText
+                android:id="@+id/edit_tenKh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                 />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_slBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Số lượng sách:    " />
+
+            <EditText
+                android:id="@+id/edit_slBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number|textPersonName" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox_vip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="265sp"
+            android:text="Khách hàng là VIP" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_thanhTien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thành tiền:                         " />
+
+            <TextView
+                android:id="@+id/textView_tien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_tinhTT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tính TT" />
+
+            <Button
+                android:id="@+id/button_tiep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tiếp" />
+
+            <Button
+                android:id="@+id/button_thongke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Thống kê" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_ttThongKe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E8D52B"
+            android:text="Thông tín thống kê:"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_tongKH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tổng số khách hàng:          " />
+
+            <EditText
+                android:id="@+id/edit_tongKH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_tongKHVIp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tổng số khách hàng là vip:" />
+
+            <EditText
+                android:id="@+id/edit_tongKHVIP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_tongDT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tổng doanh thu:                  " />
+
+            <EditText
+                android:id="@+id/edit_tongDT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:textSize="18dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="390dp"
+
+            android:background="#D89494"
+            app:srcCompat="@android:drawable/ic_lock_power_off" />
+    </LinearLayout>
+</ScrollView>
